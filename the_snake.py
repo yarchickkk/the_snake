@@ -62,7 +62,7 @@ class GameObject:
 
 class Snake(GameObject):
     """Snake class."""
-    
+
     def __init__(self) -> None:
         super().__init__(
             (GRID_WIDTH // 2 * GRID_SIZE, GRID_HEIGHT // 2 * GRID_SIZE),
